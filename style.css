@@ -1,3 +1,5 @@
+/*The times new roman font needs to be installed*/
+
 body {
     background-color: white;
     font-family: "nyt-franklin", helvetica, arial, sans-serif;
@@ -15,4 +17,24 @@ body {
     font-style: italic;
     display: flex;
 
+}
+
+.p {
+    margin-bottom: 0.78125rem;
+    margin-top: 0;
+    font-family: nyt-imperial,georgia,'times new roman',times,serif;
+    font-size: 1.125rem;
+    line-height: 1.5625rem;
+    margin-left: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: calc(100% - 40px);
+    max-width: 600px;
+}
+
+.p-container {
+    margin-left: calc((100% - 600px)/2);
+    margin-right: 0;
+    width: 600px;
+    display: block;
 }
