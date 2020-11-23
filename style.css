@@ -1,0 +1,18 @@
+body {
+    background-color: white;
+    font-family: "nyt-franklin", helvetica, arial, sans-serif;
+    display: block;
+    height: 100vh;
+}
+.title {
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    line-height: 3rem;
+    font-weight: 700;
+    font-style: italic;
+    display: flex;
+
+}
