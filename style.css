@@ -5,7 +5,6 @@ body {
 }
 
 .title {
-
     font-family: nyt-cheltenham,georgia,'times new roman',times,serif;
     font-size:  1.5375rem;
     font-weight: 700;
@@ -14,7 +13,6 @@ body {
     margin: 0 auto 1rem;
     width: 600px;
     line-height: 3rem;
-
 }
 
 img {
@@ -75,16 +73,13 @@ img {
     padding: 12px;
     border: 1px solid rgb(50, 104, 145);
     border-radius: 3px;
-
     background-color: rgb(86, 123, 149);
     color: rgb(255, 255, 255);
 }
 
-.paragraph {
+p {
     font-size: 1.25rem;
     text-align: justify;
-    display: flex;
-    flex-flow: row wrap;
     width: 40%;
     margin-bottom: 10px;
 }
