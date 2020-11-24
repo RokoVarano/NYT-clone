@@ -1,23 +1,19 @@
-.body {
+
+body {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 .title {
-
     font-family: nyt-cheltenham,georgia,'times new roman',times,serif;
     font-size:  1.5375rem;
     font-weight: 700;
     font-style: italic;
     color: #121212;
-    margin: 0 20px 1rem;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 1rem;
+    margin: 0 auto 1rem;
     width: 600px;
     line-height: 3rem;
-
 }
 
 img {
@@ -30,10 +26,9 @@ img {
 }
 
 .description{
-    display: flex;
-    width: 700px;
-    margin-left: 162px;
-    margin-right: 1300px;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
     color: black;
     font-family: nyt-imperial,georgia,'times new roman',times,serif;
     font-size: 0.875rem;
@@ -78,10 +73,10 @@ img {
     padding: 12px;
     border: 1px solid rgb(50, 104, 145);
     border-radius: 3px;
-
     background-color: rgb(86, 123, 149);
     color: rgb(255, 255, 255);
 }
+
 .author{
     font-weight: 500;
     color: #333;
@@ -93,7 +88,6 @@ img {
     margin-left: 158px;
     margin-right: 1300px;
     display: inline-block;
-    font-style: strong;
 }
 .icons{
     display: flex;
@@ -105,11 +99,17 @@ ul{
     display: flex;
     justify-content: flex-end;
 }
-li{
+li {
     color: black;
     display: inline-block;
     margin-right: 11px;
+}
 
+p {
+    font-size: 1.25rem;
+    text-align: justify;
+    width: 40%;
+    margin-bottom: 10px;
 }
 
 .time { 
@@ -119,3 +119,4 @@ li{
     display: inline-block;
     line-height: 3rem;
 }
+
