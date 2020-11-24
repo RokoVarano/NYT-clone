@@ -1,3 +1,40 @@
+
+.title {
+
+    font-family: nyt-cheltenham,georgia,'times new roman',times,serif;
+    font-size:  1.5375rem;
+    font-weight: 700;
+    font-style: italic;
+    color: #121212;
+    margin: 0 20px 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1rem;
+    width: 600px;
+    line-height: 3rem;
+
+}
+
+img {
+    display: flex;
+    justify-content: center;
+    width: 1000px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.description{
+    display: flex;
+    width: 700px;
+    margin-left: 158px;
+    margin-right: 1300px;
+    color: black;
+    font-family: nyt-imperial,georgia,'times new roman',times,serif;
+    font-size: 0.875rem;
+    line-height: 20pt;
+}
+
 .topnav {
     background-color: orange;
     display: flex;
@@ -41,3 +78,4 @@
     color: rgb(255, 255, 255);
 
 }
+
