@@ -5,8 +5,39 @@
     align-items: center;
     left: 0;
     top: 0;
-    flex-flow: row wrap;
+    right: 0;
+    flex-flow: row;
     position: fixed;
     height: 40px;
+    padding: 2px 15px;
+}
+
+.nav-image {
+    height: 40px;
     width: 100%;
+    object-fit: contain;
+}
+
+.nav-link {
+    font-weight: bolder;
+    color: black;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+.nav-icon {
+    padding: 8px;
+}
+
+.nav-button {
+    padding: 12px;
+    border: 1px solid rgb(50, 104, 145);
+    border-radius: 3px;
+
+    background-color: rgb(86, 123, 149);
+    color: rgb(255, 255, 255);
+
 }
