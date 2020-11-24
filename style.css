@@ -1,0 +1,12 @@
+.topnav {
+    background-color: orange;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    left: 0;
+    top: 0;
+    flex-flow: row wrap;
+    position: fixed;
+    height: 40px;
+    width: 100%;
+}
