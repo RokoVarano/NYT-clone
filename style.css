@@ -166,3 +166,11 @@ hr
     font-size: 1.25rem;
     display: flex;
 }
+aside {
+    width: 15%;
+    padding-left: 5px;
+    margin-left: 5px;
+    float: right;
+    font-style: italic;
+    background-color: skyblue;
+    }
