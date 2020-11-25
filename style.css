@@ -165,3 +165,9 @@ p {
     width: 240px;
     object-fit: contain;
 }
+
+.card-container-description {
+    color: grey;
+    font-size: 14px;
+    max-width: 960px;
+}
