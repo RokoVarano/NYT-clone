@@ -26,9 +26,9 @@ img {
 }
 
 .description{
-    width: 40%;
+    width: 650px;
     margin-left: auto;
-    margin-right: auto;
+    margin-right: 520px;
     color: black;
     font-family: nyt-imperial,georgia,'times new roman',times,serif;
     font-size: 0.875rem;
@@ -77,23 +77,34 @@ img {
     color: rgb(255, 255, 255);
 }
 
-.author{
+.social{
     font-weight: 500;
     color: #333;
     font-size: 1.0175rem;
     line-height: 1rem;
-    align-self: center;
     padding: 5px;
-    width: 700px;
-    margin-left: 158px;
-    margin-right: 1300px;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
     display: inline-block;
+}
+.author{
+
+    font-weight: 500;
+    color: #333;
+    font-size: 1.0175rem;
+    line-height: 1rem;
+    padding: 5px;
+    margin-left: 0px;
+    display: inline;
+
 }
 .icons{
     display: flex;
+
 }
 ul{
-    margin-left: 900px;
+    margin-left: 480px;
     margin-right: 300px;
     list-style: none;
     display: flex;
@@ -113,10 +124,8 @@ p {
 }
 
 .time { 
-    width: 700px;
-    margin-left: 162px;
-    margin-right: 1300px;
-    display: inline-block;
-    line-height: 3rem;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 4rem;
 }
 
