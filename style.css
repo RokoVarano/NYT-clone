@@ -22,7 +22,7 @@ body {
 }
 
 .description{
-    color: black;
+    color: grey;
     width: 600px;
     font-family: nyt-imperial,georgia,'times new roman',times,serif;
     font-size: 0.875rem;
@@ -127,3 +127,11 @@ p {
     line-height: 4rem;
 }
 
+.figcaptions {
+    color: gray;
+}
+
+.caption-by {
+    color: darkgray;
+    font-size: small;
+}
