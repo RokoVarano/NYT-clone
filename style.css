@@ -3,7 +3,6 @@ body {
     flex-direction: column;
     align-items: center;
 }
-
 .title {
     font-family: nyt-cheltenham,georgia,'times new roman',times,serif;
     font-size:  1.5375rem;
@@ -14,12 +13,10 @@ body {
     width: 600px;
     line-height: 3rem;
 }
-
 .title-figure {
     max-width: 800px;
     width: auto;
 }
-
 .description{
     color: grey;
     width: 600px;
@@ -27,7 +24,6 @@ body {
     font-size: 0.875rem;
     line-height: 20pt;
 }
-
 .topnav {
     display: flex;
     justify-content: space-between;
@@ -44,29 +40,24 @@ body {
     border-width: 1px;
     border-bottom-style: solid;
 }
-
 .nav-image {
     height: 40px;
     max-width: 200px;
     object-fit: contain;
 }
-
 .nav-link {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bolder;
     color: black;
     text-decoration: none;
 }
-
 .nav-link:hover {
     text-decoration: underline;
 }
-
 .nav-icon {
     color: #121212;
     padding: 8px;
 }
-
 .nav-button {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bolder;
@@ -76,7 +67,6 @@ body {
     background-color: rgb(86, 123, 149);
     color: rgb(255, 255, 255);
 }
-
 .social{
     font-weight: 500;
     color: #333;
@@ -86,13 +76,11 @@ body {
     width: 600px;
     display: inline-block;
 }
-
 .social-links{
     list-style: none;
     display: flex;
     justify-content: flex-end;
 }
-
 .author{
     font-weight: 500;
     color: #333;
@@ -107,27 +95,22 @@ body {
     display: flex;
 
 }
-
 li {
     color: black;
     display: inline-block;
     margin-right: 11px;
 }
-
 p {
     font-size: 1.25rem;
     text-align: justify;
     max-width: 600px;
     margin-bottom: 10px;
 }
-
 .main_p{
 display: flex;
 flex-direction: column;
 align-items: center;
 }
-
-
 .time { 
     margin-left: auto;
     margin-right: auto;
@@ -138,32 +121,25 @@ align-items: center;
     position: absolute;
     background-color: skyblue;
 }
-
-
 .figcaptions {
     color: gray;
 }
-
 .caption-by {
     color: darkgray;
     font-size: small;
 }
-
 .card-container {
     display: flex;
     flex-flow: column;
 }
-
 .card-row {
     display: flex;
     flex-flow: row wrap;
 }
-
 .card {
     display: flex;
     flex-flow: column;
 }
-
 .card-cap {
     margin: 5px 10px;
     max-width: fit-content;
@@ -172,19 +148,16 @@ align-items: center;
     line-height: 17px;
     color: #121212;
 }
-
 .card-pic {
     height: 150px;
     width: 240px;
     object-fit: contain;
 }
-
 .card-container-description {
     color: grey;
     font-size: 14px;
     max-width: 960px;
 }
-
 .articles_main_picks {  
     flex-direction: column;
     font-size: 1em;
