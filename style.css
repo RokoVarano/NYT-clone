@@ -135,3 +135,33 @@ p {
     color: darkgray;
     font-size: small;
 }
+
+.card-container {
+    display: flex;
+    flex-flow: column;
+}
+
+.card-row {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.card {
+    display: flex;
+    flex-flow: column;
+}
+
+.card-cap {
+    margin: 5px 10px;
+    max-width: fit-content;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 17px;
+    color: #121212;
+}
+
+.card-pic {
+    height: 150px;
+    width: 240px;
+    object-fit: contain;
+}
