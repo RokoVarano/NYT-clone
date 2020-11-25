@@ -1,10 +1,3 @@
-
-body {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
 .title {
     font-family: nyt-cheltenham,georgia,'times new roman',times,serif;
     font-size:  1.5375rem;
@@ -120,11 +113,56 @@ p {
     text-align: justify;
     width: 40%;
     margin-bottom: 10px;
-}
 
+}
+.main_p{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
 .time { 
     margin-left: auto;
     margin-right: auto;
     line-height: 4rem;
 }
+.editors_picks {
+    width: 200px;
+    position: absolute;
+    background-color: skyblue;
+}
 
+.articles_main_picks {  
+    flex-direction: column;
+    font-size: 1em;
+    font-family: inherit;
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+}
+#titlepicks{
+font-weight: bold;
+font-size:18px;
+}
+.articles-links{
+    font-weight: bold;
+}
+hr
+{
+    border: 2px solid #333;
+}
+.articles-links img{
+    width: 7.5vw;
+    height: 7.5vw;
+}
+.articles-links h5 {
+    color: #666;
+    margin-left: 5px;
+    vertical-align: middle;
+}
+.p_test {
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.25rem;
+    display: flex;
+}
