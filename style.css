@@ -16,19 +16,12 @@ body {
     line-height: 3rem;
 }
 
-img {
-    display: flex;
-    justify-content: center;
-    width: 1000px;
-    height: 500px;
-    margin-left: auto;
-    margin-right: auto;
+.title-figure {
+    max-width: 800px;
+    height: auto;
 }
 
 .description{
-    width: 650px;
-    margin-left: auto;
-    margin-right: 520px;
     color: black;
     font-family: nyt-imperial,georgia,'times new roman',times,serif;
     font-size: 0.875rem;
@@ -51,7 +44,7 @@ img {
 
 .nav-image {
     height: 40px;
-    width: 100%;
+    max-width: 200px;
     object-fit: contain;
 }
 
@@ -83,11 +76,16 @@ img {
     font-size: 1.0175rem;
     line-height: 1rem;
     padding: 5px;
-    width: 500px;
-    margin-left: auto;
-    margin-right: auto;
+    width: 600px;
     display: inline-block;
 }
+
+.social-links{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
 .author{
 
     font-weight: 500;
@@ -103,13 +101,7 @@ img {
     display: flex;
 
 }
-ul{
-    margin-left: 480px;
-    margin-right: 300px;
-    list-style: none;
-    display: flex;
-    justify-content: flex-end;
-}
+
 li {
     color: black;
     display: inline-block;
@@ -119,13 +111,11 @@ li {
 p {
     font-size: 1.25rem;
     text-align: justify;
-    width: 40%;
+    max-width: 600px;
     margin-bottom: 10px;
 }
 
-.time { 
-    margin-left: auto;
-    margin-right: auto;
+.time {
     line-height: 4rem;
 }
 
