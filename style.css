@@ -30,17 +30,20 @@ body {
 }
 
 .topnav {
-    background-color: orange;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-flow: row;
     left: 0;
     top: 0;
     right: 0;
-    flex-flow: row;
     position: fixed;
     height: 40px;
     padding: 2px 15px;
+    background-color: white;
+    border-color: darkgrey;
+    border-width: 1px;
+    border-bottom-style: solid;
 }
 
 .nav-image {
@@ -50,6 +53,7 @@ body {
 }
 
 .nav-link {
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: bolder;
     color: black;
     text-decoration: none;
@@ -60,11 +64,14 @@ body {
 }
 
 .nav-icon {
+    color: #121212;
     padding: 8px;
 }
 
 .nav-button {
-    padding: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    padding: 8px 12px;
     border: 1px solid rgb(50, 104, 145);
     border-radius: 3px;
     background-color: rgb(86, 123, 149);
