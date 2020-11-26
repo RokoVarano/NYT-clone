@@ -103,8 +103,25 @@
 }
 .social-links{
     list-style: none;
-    display: flex;
     justify-content: flex-end;
+    width: fit-content;
+}
+.btn-social{
+    padding: 5px 6px;
+    border-radius: 50%;
+    background-color: #eeeeee;
+    color: #121212;
+    position: relative;
+    border: 0;
+}
+
+.btn-social:hover {
+    background-color: white;
+    border: #eeeeee 1px solid;
+}
+.btn-social-content{
+    width: 13px;
+    height: 13px;
 }
 li {
     color: black;
