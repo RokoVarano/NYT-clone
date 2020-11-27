@@ -36,6 +36,18 @@
   width: 600px;
 }
 
+.mw960 {
+  max-width: 960px;
+}
+
+.w100 {
+  width: 100%;
+}
+
+.mw100 {
+  max-width: 100%;
+}
+
 .nav-spacer {
   height: 60px;
 }
@@ -48,10 +60,6 @@
   margin: 0;
 }
 
-.w100 {
-  width: 100%;
-}
-
 .p5 {
   padding: 5px 0;
 }
@@ -60,8 +68,32 @@
   border: 0;
 }
 
+.border-top {
+  border-top: #121212 1px solid;
+}
+
+.border-top-lightgray {
+  border-top: lightgray 1px solid;
+}
+
 .wrap {
   flex-wrap: wrap;
+}
+
+.fright {
+  float: right;
+}
+
+.m30-top {
+  margin: 30px 0 0 0;
+}
+
+.font-medium {
+  font-size: medium;
+}
+
+.font-small {
+  font-size: small;
 }
 
 .topnav {
@@ -125,10 +157,6 @@
   font-family: nyt-imperial, georgia, 'times new roman', times, serif;
   font-size: 0.875rem;
   line-height: 20pt;
-}
-
-.description-card {
-  width: 960px;
 }
 
 .author {
@@ -240,10 +268,6 @@ p {
 .nlp {
   padding: 17px 0;
   margin: 30px 0 0 0;
-}
-
-.border-top {
-  border-top: #121212 1px solid;
 }
 
 .nlp-item {
@@ -367,4 +391,97 @@ aside {
   font-weight: 600;
   font-size: 15px;
   text-align: center;
+}
+
+.footer-grid {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto;
+  grid-template-rows: auto;
+  grid-template-areas:
+    "header header header header header header"
+    "menu1 menu2 menu3 menu4 menu5 sidelinks";
+  width: 1200px;
+}
+
+.footer-grid-header {
+  grid-area: header;
+}
+
+.footer-grid-menu1 {
+  grid-area: menu1;
+}
+
+.footer-grid-menu2 {
+  grid-area: menu2;
+}
+
+.footer-grid-menu3 {
+  grid-area: menu3;
+}
+
+.footer-grid-menu4 {
+  grid-area: menu4;
+}
+
+.footer-grid-menu5 {
+  grid-area: menu5;
+}
+
+.footer-grid-sidelinks {
+  grid-area: sidelinks;
+  padding: 0 0 0 5px;
+  border-left: 1px #d3d3d3 solid;
+}
+
+.logo-footer {
+  float: left;
+  max-width: 200px;
+  height: 40px;
+}
+
+.fright {
+  float: right;
+}
+
+.m30-top {
+  margin: 30px 0 0 0;
+}
+
+.font-medium {
+  font-size: medium;
+}
+.sus_sus {
+  color: rgb(51, 51, 51);
+  font-size: 13px;
+  font-weight: 700;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  height: 25px;
+  line-height: 15px;
+  margin: 0px;
+  text-transform: uppercase;
+  width: 150px;
+}
+.subscribe_s a {
+  color: rgb(0, 0, 0);
+  display: inline-block;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  text-decoration: none;
+  text-transform: capitalize;
+  width: 150px;
+  font-size: 16px;
+  font-weight: 700;
+  height: 25px;
+  line-height: 15px;
+  padding-bottom: 0px;
+  text-decoration: none;
+  color: black;
+  margin-bottom: 5px;
+  white-space: nowrap;
+}
+.subs_icon {
+  display: inline-block;
+  height: 15px;
+  width: 15px;
+  margin-right: 10px;
+  vertical-align: middle;
 }
