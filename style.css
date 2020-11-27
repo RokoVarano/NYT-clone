@@ -281,3 +281,63 @@ p {
 .a-strech {
   align-items: stretch;
 }
+
+.footer-grid {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto;
+  grid-template-rows: auto;
+  grid-template-areas:
+    "header header header header header header"
+    "menu1 menu2 menu3 menu4 menu5 sidelinks";
+  width: 1200px;
+}
+
+.footer-grid-header {
+  grid-area: header;
+}
+
+.footer-grid-menu1 {
+  grid-area: menu1;
+}
+
+.footer-grid-menu2 {
+  grid-area: menu2;
+}
+
+.footer-grid-menu3 {
+  grid-area: menu3;
+}
+
+.footer-grid-menu4 {
+  grid-area: menu4;
+}
+
+.footer-grid-menu5 {
+  grid-area: menu5;
+}
+
+.footer-grid-sidelinks {
+  grid-area: sidelinks;
+}
+
+.footer-grid-footer {
+
+}
+
+.logo-footer {
+  float: left;
+  max-width: 200px;
+  height: 40px;
+}
+
+.fright {
+  float: right;
+}
+
+.m30-top {
+  margin: 30px 0 0 0;
+}
+
+.font-medium {
+  font-size: medium;
+}
