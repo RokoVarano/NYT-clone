@@ -107,6 +107,7 @@
   border-color: darkgrey;
   border-width: 1px;
   border-bottom-style: solid;
+  z-index: 2;
 }
 
 .nav-image {
