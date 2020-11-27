@@ -1,32 +1,69 @@
-.flex{
+.flex {
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 .flex-col {
     flex-direction: column;
 }
+
 .flex-row {
-    flex-direction: row;
+    flex-flow: row;
 }
+
 .spaced-between {
     justify-content: space-between;
 }
-.a-start{
+
+.a-start {
     align-self: start;
 }
-.j-start{
+
+.a-end {
+    align-self: flex-end;
+}
+
+.j-start {
     justify-self: start;
 }
+
 .bolder {
     font-weight: bolder;
 }
+
 .w600 {
     width: 600px;
 }
+
 .nav-spacer {
     height: 60px;
 }
+
+.arial {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.m0 {
+    margin: 0;
+}
+
+.w100 {
+    width: 100%;
+}
+
+.p5 {
+    padding: 5px 0;
+}
+
+.border0 {
+    border: 0;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+
 .topnav {
     left: 0;
     top: 0;
@@ -39,61 +76,70 @@
     border-width: 1px;
     border-bottom-style: solid;
 }
+
 .nav-image {
     height: 40px;
     max-width: 200px;
     object-fit: contain;
 }
+
 .nav-link {
-    font-family: Arial, Helvetica, sans-serif;
     color: black;
     text-decoration: none;
 }
+
 .nav-link:hover {
     text-decoration: underline;
 }
+
 .nav-icon {
     color: #121212;
     padding: 8px;
 }
+
 .nav-button {
-    font-family: Arial, Helvetica, sans-serif;
     padding: 8px 12px;
     border: 1px solid rgb(50, 104, 145);
     border-radius: 3px;
     background-color: rgb(86, 123, 149);
     color: rgb(255, 255, 255);
 }
+
 .title {
-    font-family: nyt-cheltenham,georgia,'times new roman',times,serif;
-    font-size:  1.5375rem;
+    font-family: nyt-cheltenham, georgia, 'times new roman', times, serif;
+    font-size: 1.5375rem;
     font-style: italic;
     color: #121212;
     margin: 0 auto 1rem;
     width: 600px;
     line-height: 3rem;
 }
+
 .title-img {
     max-width: 800px;
     width: auto;
 }
-.description{
+
+.description {
     color: grey;
-    font-family: nyt-imperial,georgia,'times new roman',times,serif;
+    font-family: nyt-imperial, georgia, 'times new roman', times, serif;
     font-size: 0.875rem;
     line-height: 20pt;
 }
+
 .description-card {
     width: 960px;
 }
-.author{
+
+.author {
     color: #333;
     font-size: 1.0175rem;
     line-height: 1rem;
     padding: 5px;
     display: inline;
 }
-.social{
+
+.social {
     color: #333;
     font-size: 1.0175rem;
     line-height: 1rem;
@@ -101,12 +147,14 @@
     width: 600px;
     display: inline-block;
 }
-.social-links{
+
+.social-links {
     list-style: none;
     justify-content: flex-end;
     width: fit-content;
 }
-.btn-social{
+
+.btn-social {
     padding: 5px 6px;
     border-radius: 50%;
     background-color: #eeeeee;
@@ -119,47 +167,123 @@
     background-color: white;
     border: #eeeeee 1px solid;
 }
-.btn-social-content{
+
+.btn-social-content {
     width: 13px;
     height: 13px;
 }
+
 li {
     color: black;
     display: inline-block;
     margin-right: 11px;
 }
-p  {
+
+p {
     font-size: 1.25rem;
     text-align: justify;
     max-width: 600px;
     margin-bottom: 10px;
 }
+
 .time {
     line-height: 4rem;
 }
+
 .editors_picks {
     width: 200px;
     position: absolute;
     background-color: skyblue;
 }
+
 .figcaptions {
     color: gray;
 }
+
 .caption-by {
     color: darkgray;
     font-size: small;
 }
+
 .card-cap {
     margin: 5px 10px;
     max-width: fit-content;
     font-size: 14px;
-    font-family: Arial, Helvetica, sans-serif;
     line-height: 17px;
     color: #121212;
 }
+
 .card-pic {
     height: 150px;
     width: 240px;
     object-fit: contain;
 }
 
+.newsletter-container {
+    margin-top: 45px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    padding-left: 3%;
+    padding-right: 3%;
+    width: 1200px;
+    align-items: start;
+}
+
+.newsletter-title {
+    padding: 17px 0;
+}
+
+.nlp-col {
+    margin-left: 30px;
+    max-width: 315px;
+}
+
+.nlp {
+    padding: 17px 0;
+    margin: 30px 0 0 0
+}
+
+.border-top {
+    border-top: #121212 1px solid;
+}
+
+.nlp-item {
+    border-top: lightgray 1px solid;
+    font-size: 1.1875rem;
+    line-height: 1.4375rem;
+}
+
+.nl-card {
+    width: 30%;
+    border: lightgray 1px solid;
+    padding: 10px;
+}
+
+.btn-card {
+    width: 50px;
+    height: 50px;
+    color: black;
+    align-self: start;
+    border-radius: 50%;
+    font-size: 250%;
+}
+
+.btn-card:hover {
+    background-color: #121212;
+    color: white;
+}
+
+.card-link {
+    color: cornflowerblue;
+    font-size: medium;
+    justify-self: flex-end;
+}
+
+.a-strech {
+    align-items: stretch;
+}
+
+.border0 {
+    border: 0;
+}
