@@ -261,9 +261,16 @@ p {
   padding: 17px 0;
 }
 
+.b500{
+  font-weight: 500;
+  color: #333;
+}
+
 .nlp-col {
   margin-left: 30px;
   max-width: 315px;
+  width: calc(4 * (((100vw - 370px) - 15px) / 12) + 90px);
+  display: block;
 }
 
 .nlp {
@@ -272,14 +279,24 @@ p {
 }
 
 .nlp-item {
-  border-top: lightgray 1px solid;
   font-size: 1.1875rem;
   line-height: 1.4375rem;
+  border-bottom: 1px solid rgb(226, 226, 226);
+  padding: 15px 0px;
+}
+
+.mostpoplinks {
+  color: rgb(18, 18, 18);
+  font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
+  font-size: 1.125rem;
+  font-weight: 500;
+  line-height: 1.375rem;
+  text-decoration: none;
+    color: black;
 }
 
 .nl-card {
   width: 30%;
-  border: lightgray 1px solid;
   padding: 10px;
 }
 
