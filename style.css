@@ -40,6 +40,14 @@
   max-width: 960px;
 }
 
+.w100 {
+  width: 100%;
+}
+
+.mw100 {
+  max-width: 100%;
+}
+
 .nav-spacer {
   height: 60px;
 }
@@ -52,10 +60,6 @@
   margin: 0;
 }
 
-.w100 {
-  width: 100%;
-}
-
 .p5 {
   padding: 5px 0;
 }
@@ -66,6 +70,22 @@
 
 .wrap {
   flex-wrap: wrap;
+}
+
+.fright {
+  float: right;
+}
+
+.m30-top {
+  margin: 30px 0 0 0;
+}
+
+.font-medium {
+  font-size: medium;
+}
+
+.font-small {
+  font-size: small;
 }
 
 .topnav {
@@ -322,28 +342,8 @@ p {
   border-right: 1px lightgray solid;
 }
 
-.footer-grid-footer {
-
-}
-
 .logo-footer {
   float: left;
   max-width: 200px;
   height: 40px;
-}
-
-.fright {
-  float: right;
-}
-
-.m30-top {
-  margin: 30px 0 0 0;
-}
-
-.font-medium {
-  font-size: medium;
-}
-
-.font-small {
-  font-size: small;
 }
