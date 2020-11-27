@@ -281,3 +281,90 @@ p {
 .a-strech {
   align-items: stretch;
 }
+
+.titlepicks {
+  font-weight: bold;
+  font-size:18px;
+}
+
+.articles-links img {
+  width: 5.5vw;
+  height: 5.5vw;
+  float: left;
+  margin-top: 0px;
+  line-height: 14px;
+  letter-spacing: 0.02em;
+  margin-bottom: 15px;
+  padding-bottom: 12px;
+}
+
+.articles-links h5 { 
+  vertical-align: middle;
+  font-weight: 500;
+  color: rgb(51, 51, 51);
+  font-family: nyt-cheltenham-small, georgia, "times new roman";
+  border-bottom: 1px solid rgb(226, 226, 226);
+  margin-top: 10px;
+  margin-bottom: 15px;
+  padding-bottom: 12px;
+  float: left;
+}
+
+.articles-links a {
+  text-decoration: none;
+}
+
+aside {
+  width: 10%;
+  height: 18%;
+  padding-left: 15px;
+  margin-left: 15px;
+  float: right;
+  font-style: italic;
+  position: absolute;
+  right: 5%;
+  max-width: 130px;
+}
+
+.main_p {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: justify;
+}
+
+.margin_title {
+  border-bottom: 2px solid rgb(204, 204, 204);
+  width: 150px;
+}
+
+.margin_art {
+  border-bottom: 1px solid rgb(204, 204, 204);
+  width: 72px;
+  margin: 0px auto 18px;
+}
+
+.unlock_art ol, ul {
+  list-style: none;
+}
+
+.unlock_art a {
+  color: rgb(50, 104, 145);
+  text-decoration: none;
+}
+
+.margin_art2 {
+  border-bottom: 1px solid rgb(204, 204, 204);
+  width: 72px;
+  margin: 18px auto 0px;
+}
+
+.account {
+  box-sizing: border-box;
+  max-width: 600px;
+  margin: 25px auto;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-weight: 600;
+  font-size: 15px;
+  text-align: center;
+}
