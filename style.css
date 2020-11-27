@@ -316,7 +316,7 @@ p {
   width: 5.5vw;
   height: 5.5vw;
   float: left;
-  margin-top: 0px;
+  margin-top: 0;
   line-height: 14px;
   letter-spacing: 0.02em;
   margin-bottom: 15px;
@@ -441,18 +441,6 @@ ul {
   height: 40px;
 }
 
-.fright {
-  float: right;
-}
-
-.m30-top {
-  margin: 30px 0 0 0;
-}
-
-.font-medium {
-  font-size: medium;
-}
-
 .sus_sus {
   color: rgb(51, 51, 51);
   font-size: 13px;
@@ -460,7 +448,7 @@ ul {
   font-family: nyt-franklin, helvetica, arial, sans-serif;
   height: 25px;
   line-height: 15px;
-  margin: 0px;
+  margin: 0;
   text-transform: uppercase;
   width: 150px;
 }
