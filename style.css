@@ -318,6 +318,8 @@ p {
 
 .footer-grid-sidelinks {
   grid-area: sidelinks;
+  padding: 0 0 0 5px;
+  border-right: 1px lightgray solid;
 }
 
 .footer-grid-footer {
@@ -340,4 +342,8 @@ p {
 
 .font-medium {
   font-size: medium;
+}
+
+.font-small {
+  font-size: small;
 }
