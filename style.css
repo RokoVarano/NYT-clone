@@ -27,9 +27,17 @@
 .nav-spacer {
     height: 60px;
 }
-
 .arial {
     font-family: Arial, Helvetica, sans-serif;
+}
+.m0{
+    margin: 0;
+}
+.w100 {
+    width: 100%;
+}
+.p5{
+    padding: 5px 0;
 }
 .topnav {
     left: 0;
@@ -170,30 +178,50 @@ p  {
     padding-top: 20px;
     padding-left: 3%;
     padding-right: 3%;
-    max-width: 1200px;
+    width: 1200px;
+    align-items: start;
 }
 .newsletter-title {
     padding: 17px 0;
 }
-
 .nlp-col{
     margin-left: 30px;
     max-width: 315px;
 }
-
 .nlp {
     padding: 17px 0;
     margin: 0;
-    width: 100%;
 }
-
-.nlp-title{
+.border-top{
     border-top: #121212 1px solid;
-
 }
-
 .nlp-item{
     border-top: lightgray 1px solid;
     font-size: 1.1875rem;
     line-height: 1.4375rem;
+}
+.nl-card {
+    width:30%;
+    border: lightgray 1px solid;
+    padding: 10px;
+}
+.btn-card {
+    width: 50px;
+    height: 50px;
+    color: black;
+    align-self: start;
+    border-radius: 50%;
+    font-size: 250%;
+}
+.btn-card:hover {
+    background-color: #121212;
+    color: white;
+}
+.card-link {
+    color: cornflowerblue;
+    font-size: medium;
+    justify-self: flex-end;
+}
+.a-strech {
+    align-items: stretch;
 }
