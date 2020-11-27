@@ -36,6 +36,10 @@
   width: 600px;
 }
 
+.mw960 {
+  max-width: 960px;
+}
+
 .nav-spacer {
   height: 60px;
 }
@@ -125,10 +129,6 @@
   font-family: nyt-imperial, georgia, 'times new roman', times, serif;
   font-size: 0.875rem;
   line-height: 20pt;
-}
-
-.description-card {
-  width: 960px;
 }
 
 .author {
